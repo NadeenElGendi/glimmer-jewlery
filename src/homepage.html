@@ -21,8 +21,6 @@
       border-top-left-radius: 70px;
       border-top-right-radius: 70px;
     }
-
-   
   </style>
 </head>
 
@@ -102,16 +100,17 @@
         </span>
         <span class="text-xs font-normal text-beige tracking-normal">Jewelry</span>
       </div>
-      
+
       <button id="closeSidebarBtn" class="absolute top-6 left-6 text-beige text-3xl focus:outline-none">&times;</button>
-   
+
       <nav class="flex flex-col gap-2 text-lg font-semibold">
         <a href="#" class="hover:underline py-2 px-2 rounded">الرئيسية</a>
         <a href="#" class="hover:underline py-2 px-2 rounded">المدونة</a>
         <a href="#" class="hover:underline py-2 px-2 rounded">تخفيضات</a>
         <a href="#" class="hover:underline py-2 px-2 rounded">العقود</a>
-        
-        <button type="button" class="flex items-center justify-between w-full py-2 px-2 rounded hover:bg-olive/80" onclick="openSubmenu('ringsSubmenu')">
+
+        <button type="button" class="flex items-center justify-between w-full py-2 px-2 rounded hover:bg-olive/80"
+          onclick="openSubmenu('ringsSubmenu')">
           <span>الخواتم</span>
           <span class="material-icons">chevron_left</span>
         </button>
@@ -123,7 +122,8 @@
         <a href="#" class="hover:underline py-2 px-2 rounded">الساعات</a>
       </nav>
 
-      <div id="ringsSubmenu" class="fixed right-0 top-0 h-full w-80 max-w-full bg-olive text-beige shadow-lg  flex-col p-6 z-50 hidden animate-fade-in">
+      <div id="ringsSubmenu"
+        class="fixed right-0 top-0 h-full w-80 max-w-full bg-olive text-beige shadow-lg  flex-col p-6 z-50 hidden animate-fade-in">
         <div class="flex items-center justify-between mb-8">
           <button type="button" class="text-beige text-2xl" onclick="closeSubmenu('ringsSubmenu')">
             <span class="material-icons">chevron_right</span>
@@ -292,7 +292,8 @@
           <!-- Product Info -->
           <div class="w-full text-right">
             <div class="flex justify-center mb-4">
-              <span class="text-yellow-400 text-xl">★★★★★</span>
+              <span class="text-yellow-400 text-xl"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
             </div>
             <span class="text-orange-500 text-sm font-bold block mb-2 text-center">الحلقان</span>
             <h3 class="font-bold text-xl text-olive mb-4 text-center">حلق ذهبي دائري</h3>
@@ -338,7 +339,7 @@
   <!-- Latest Products -->
   <section class="bg-[#FBF9F6] py-12">
     <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-center text-xl font-semibold mb-8 text-olive">أحدث المنتجات</h2>
+      <h2 class="text-center text-xl font-semibold mb-8 text-olive ">أحدث المنتجات</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-10">
         <div class="relative bg-[#F7F2E9] rounded-2xl shadow p-4 flex flex-col items-center border border-beige">
           <button class="absolute top-3 left-3 text-gray-300 hover:text-red-400"><span
@@ -346,7 +347,8 @@
           <img src="images/7.jpg" alt="خاتم" class="w-24 h-24 object-contain mb-2" />
           <span class="text-yellow-700 text-xs font-bold">الخواتم</span>
           <h3 class="font-semibold text-base text-green-900 mt-1 mb-2">خاتم خطبة أنيق</h3>
-          <div class="flex justify-center text-yellow-400 text-base mb-2">★★★★★</div>
+          <span class="text-yellow-400 text-xl"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
           <div class="flex justify-center gap-2 items-center">
             <span class="text-red-500 font-bold">500 ر.س</span>
             <span class="line-through text-gray-400 text-sm">650 ر.س</span>
@@ -358,7 +360,8 @@
           <img src="images/8.jpg" alt="سوار" class="w-24 h-24 object-contain mb-2" />
           <span class="text-yellow-700 text-xs font-bold">أساور/سبيشل</span>
           <h3 class="font-semibold text-base text-green-900 mt-1 mb-2">أسورة سبشل</h3>
-          <div class="flex justify-center text-yellow-400 text-base mb-2">★★★★★</div>
+          <span class="text-yellow-400 text-xl"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
           <div class="flex justify-center gap-2 items-center">
             <span class="text-red-500 font-bold">500 ر.س</span>
             <span class="line-through text-gray-400 text-sm">650 ر.س</span>
@@ -370,7 +373,8 @@
           <img src="images/9.jpg" alt="عقد" class="w-24 h-24 object-contain mb-2" />
           <span class="text-yellow-700 text-xs font-bold">العقود</span>
           <h3 class="font-semibold text-base text-green-900 mt-1 mb-2">عقد أنيق</h3>
-          <div class="flex justify-center text-yellow-400 text-base mb-2">★★★★★</div>
+          <span class="text-yellow-400 text-xl"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
           <div class="flex justify-center gap-2 items-center">
             <span class="text-red-500 font-bold">500 ر.س</span>
             <span class="line-through text-gray-400 text-sm">650 ر.س</span>
@@ -382,7 +386,8 @@
           <img src="images/10.jpg" alt="اكسسوار شعر" class="w-24 h-24 object-contain mb-2" />
           <span class="text-yellow-700 text-xs font-bold">إكسسوارات شعر</span>
           <h3 class="font-semibold text-base text-green-900 mt-1 mb-2">اكسسوار باللون الذهبي</h3>
-          <div class="flex justify-center text-yellow-400 text-base mb-2">★★★★★</div>
+          <span class="text-yellow-400 text-xl"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
           <div class="flex justify-center gap-2 items-center">
             <span class="text-red-500 font-bold">500 ر.س</span>
             <span class="line-through text-gray-400 text-sm">650 ر.س</span>
