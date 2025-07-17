@@ -200,63 +200,61 @@
     </div>
 
     <!-- Desktop Layout -->
-    <!-- Desktop Layout -->
-    <div class="hidden md:flex w-full h-full items-center justify-between relative px-8">
-      <!-- Text Content (Left Column) -->
-      <div class="flex-1 text-center space-y-6" style="margin-top: 40px;">
-        <!-- SVG -->
-        <span style="display: block; margin: 0 auto 12px auto; width: 32px; height: 32px;">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 2L18.4721 11.5279L28 14L18.4721 16.4721L16 26L13.5279 16.4721L4 14L13.5279 11.5279L16 2Z"
-              fill="#CE9461" />
-          </svg>
-        </span>
-
-        <!-- Heading + Tagline -->
-        <p class="text-[#CE9461] text-xl font-bold mb-2">تألقي بأناقة لا تُنسى</p>
-        <div class="flex flex-row-reverse items-center justify-center gap-2 w-full mb-2">
-          <span
-            class="bg-[#F0E5D3] text-[#1E3231] px-6 py-2 rounded font-bold flex items-center text-2xl border border-[#1E3231] shadow"
-            style="border-width: 2px;">
-            <i class="fa-solid fa-gem ml-2"></i>
-            المجوهرات
-          </span>
-          <span class="text-[#F0E5D3] text-5xl font-bold">اكتشفي سحر</span>
-        </div>
-
-        <span class="text-[#F0E5D3] text-4xl font-bold block">التي تعكس أنوثتك</span>
-
-        <!-- Paragraph -->
-        <p class="text-[#F0E5D3] text-base md:text-lg leading-relaxed max-w-xl mx-auto mt-2">
-          استمتعي بتجربة تسوق فريدة لتتم تشكيلات مذهلة من المجوهرات الراقية، حيث تعكس كل قطعة لمسة من السحر إلى كل
-          لحظة في حياتك.
-        </p>
-
-        <!-- CTA Button -->
-        <button
-          style="display: flex; align-items: center; gap: 12px; margin: 24px auto 0 auto; padding: 12px 36px; border-radius: 9999px; border: 2px solid #F0E5D3; background: transparent; color: #F0E5D3; font-size: 1.25rem; font-weight: bold; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08); transition: background 0.2s;"
-          onmouseover="this.style.background='#F0E5D3';this.style.color='#1E3231'"
-          onmouseout="this.style.background='transparent';this.style.color='#F0E5D3'">
-          <span>اكتشفـي المزيد</span>
-          <span
-            style="background: #F0E5D3; color: #1E3231; padding: 8px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 2px solid #F0E5D3;">
-            <i class="fa-solid fa-arrow-left"></i>
-          </span>
-        </button>
-
-        <!-- Slide Indicator -->
-        <div class="flex items-center justify-center gap-2 pt-4" style="font-family: 'Cairo', Arial, sans-serif;">
-          <span class="text-[#F0E5D3] text-lg font-bold">3</span>
-          <span class="text-[#CE9461] text-lg font-bold">/</span>
-          <span class="text-[#F0E5D3] text-lg font-bold">1</span>
-          <span class="ml-4 text-[#F0E5D3] text-xl"><i class="fa-solid fa-arrow-left"></i></span>
-        </div>
-      </div>
-
-      <!-- Main Image (Right Column) -->
-      <div class="relative w-[400px] h-[520px] mr-8">
+    <div class="hidden md:flex w-full h-full items-center justify-center relative">
+      <!-- Main Image -->
+      <div style="position: absolute; right: 100px; width: 397px; height: 511px;">
         <img src="images/1.png" alt="الصورة الرئيسية"
-          class="w-full h-full object-cover rounded-t-[200px] border-2 border-[#FFF5E0] bg-[#F0E5D3] shadow-lg z-10 relative">
+          style="width: 397px; height: 511px; border-radius: 200px 200px 0 0/300px 300px 0 0; border: 2px solid #FFF5E0; position: absolute; top: 0px; right:10px; background: #F0E5D3; object-fit: cover; box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10); z-index: 10;">
+        <span
+          style="position: absolute; inset: 0; border-radius: 200px 200px 0 0/300px 300px 0 0; border: 2px solid #FFF5E0; pointer-events: none;"></span>
+      </div>
+      <!-- Side Images -->
+      <img src="images/2.jpg" alt="صورة جانبية علوية"
+        style="position: absolute; width: 135px; height: 109px; top: 30px; left: 100px; border: 2px solid #FFF5E0; border-radius: 24px 0 0 0px; background: #FFF5E0; object-fit: cover; z-index: 5; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);">
+      <img src="images/4.jpg" alt="صورة جانبية سفلية"
+        style="position: absolute; width: 135px; height: 135px; left: 100px; top: 280px; border: 2px solid #FFF5E0; border-radius: 0 0 24px 0; background: #FFF5E0; object-fit: cover; z-index: 10; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);">
+      <!-- Content -->
+      <div
+        class="relative max-w-[1200px] w-full mx-auto flex flex-col md:flex-row items-center justify-between px-4 pt-8 z-20">
+        <div class="flex-1 text-center space-y-6" style="margin-top: 40px;">
+          <span style="display: block; margin: 0 auto 12px auto; width: 32px; height: 32px;">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 2L18.4721 11.5279L28 14L18.4721 16.4721L16 26L13.5279 16.4721L4 14L13.5279 11.5279L16 2Z"
+                fill="#CE9461" />
+            </svg>
+          </span>
+          <p class="text-[#CE9461] text-xl font-bold mb-2">تألقي بأناقة لا تُنسى</p>
+          <div class="flex flex-row-reverse items-center justify-center gap-2 w-full" style="margin-bottom: 8px;">
+            <span
+              class="bg-[#F0E5D3] text-[#1E3231] px-6 py-2 rounded font-bold flex items-center text-2xl border border-[#1E3231] shadow"
+              style=" border-width: 2px;">
+              <i class="fa-solid fa-gem ml-2"></i>
+              المجوهرات
+            </span>
+            <span class="text-[#F0E5D3] text-5xl font-bold">اكتشفي سحر</span>
+          </div>
+          <span class="text-[#F0E5D3] text-4xl font-bold block">التي تعكس أنوثتك</span>
+          <p class="text-[#F0E5D3] text-base md:text-lg leading-relaxed max-w-xl mx-auto mt-2">
+            استمتعي بتجربة تسوق فريدة لتتم تشكيلات مذهلة من المجوهرات الراقية، حيث تعكس كل قطعة لمسة من السحر إلى كل
+            لحظة في حياتك.
+          </p>
+          <button
+            style="display: flex; align-items: center; gap: 12px; margin: 24px auto 0 auto; padding: 12px 36px; border-radius: 9999px; border: 2px solid #F0E5D3; background: transparent; color: #F0E5D3; font-size: 1.25rem; font-weight: bold; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08); transition: background 0.2s;"
+            onmouseover="this.style.background='#F0E5D3';this.style.color='#1E3231'"
+            onmouseout="this.style.background='transparent';this.style.color='#F0E5D3'">
+            <span>اكتشفـي المزيد</span>
+            <span
+              style="background: #F0E5D3; color: #1E3231; padding: 8px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 2px solid #F0E5D3;">
+              <i class="fa-solid fa-arrow-left"></i>
+            </span>
+          </button>
+          <div class="flex items-center justify-center gap-2 pt-4" style="font-family: 'Cairo', Arial, sans-serif;">
+            <span class="text-[#F0E5D3] text-lg font-bold">3</span>
+            <span class="text-[#CE9461] text-lg font-bold">/</span>
+            <span class="text-[#F0E5D3] text-lg font-bold">1</span>
+            <span class="ml-4 text-[#F0E5D3] text-xl"><i class="fa-solid fa-arrow-left"></i></span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
